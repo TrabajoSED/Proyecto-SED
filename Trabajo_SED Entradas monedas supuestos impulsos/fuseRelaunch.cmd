@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion_tb_isim_beh.exe" -prj "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion_tb_beh.prj" "work.devolucion_tb" 

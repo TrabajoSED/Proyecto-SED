@@ -1,0 +1,34 @@
+Release 11.1 - xst L.33 (nt64)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Miguel/Dropbox/Uni/Cuarto Curso/Sistemas digitales/trabajo/Proyecto Trabajo/Trabajo_SED/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Miguel/Dropbox/Uni/Cuarto Curso/Sistemas digitales/trabajo/Proyecto Trabajo/Trabajo_SED/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Miguel/Dropbox/Uni/Cuarto Curso/Sistemas digitales/trabajo/Proyecto Trabajo/Trabajo_SED/Comprobador.vhd" in Library work.
+Entity <comprobador> compiled.
+Entity <comprobador> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+
+Total memory usage is 203512 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

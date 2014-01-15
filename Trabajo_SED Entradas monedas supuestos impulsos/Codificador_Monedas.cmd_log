@@ -1,0 +1,1 @@
+vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Codificador_Monedas.vhi" -module Codificador_Monedas -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Codificador_Monedas.vhd 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Trabajo_SED domingo/xst/projnav.tmp"
+set -xsthdpdir "C:/Trabajo_SED domingo/xst"
+elaborate
+-ifn Restador.prj
+-ifmt mixed
