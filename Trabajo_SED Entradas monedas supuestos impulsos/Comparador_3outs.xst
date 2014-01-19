@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED lunes B/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED lunes B/xst"
-elaborate
--ifn Comparador_3outs.prj
--ifmt mixed
