@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Javi/Desktop/Trabajo_SED Martes A/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Javi/Desktop/Trabajo_SED Martes A/xst"
+elaborate
+-ifn devolucion.prj
+-ifmt mixed

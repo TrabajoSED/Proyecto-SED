@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Codificador_pdto.vhd -prj Trabajo_SED -o Codificador_pdto.spl -module Codificador_pdto -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Codificador_pdto.spl {C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED domingo exceptop/Codificador_pdto.sym} 
+vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Codificador_pdto.vhi" -module Codificador_pdto -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Codificador_pdto.vhd 
+vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Codificador_pdto.vhi" -module Codificador_pdto -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Codificador_pdto.vhd 

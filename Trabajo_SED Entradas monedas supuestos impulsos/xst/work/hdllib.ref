@@ -1,0 +1,24 @@
+AR gate_or behavioral "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Gate_OR_2_IN.vhd" sub00/vhpl11 1389631752
+EN top_expendedora NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd" sub00/vhpl16 1389742337
+EN comprobador NULL "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Comprobador.vhd" sub00/vhpl12 1389631753
+AR comparador_3outs behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd" sub00/vhpl09 1389742328
+EN restador NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd" sub00/vhpl18 1389742331
+EN gate_or NULL "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Gate_OR_2_IN.vhd" sub00/vhpl10 1389631751
+AR sync behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd" sub00/vhpl03 1389742322
+EN ff_d NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd" sub00/vhpl00 1389742319
+AR maquina behavioral "C:/Users/Javi/Desktop/Trabajo_SED Martes C/maquina.vhd" sub00/vhpl23 1389745777
+AR sumador behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd" sub00/vhpl15 1389742330
+AR ff_d behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd" sub00/vhpl01 1389742320
+EN sync NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd" sub00/vhpl02 1389742321
+EN codificador_monedas NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd" sub00/vhpl04 1389742323
+EN codificador_pdto NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd" sub00/vhpl06 1389742325
+EN comparador_3outs NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd" sub00/vhpl08 1389742327
+AR top_expendedora behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd" sub00/vhpl17 1389742338
+AR devolucion behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd" sub00/vhpl21 1389742334
+EN maquina NULL "C:/Users/Javi/Desktop/Trabajo_SED Martes C/maquina.vhd" sub00/vhpl22 1389745776
+AR restador behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd" sub00/vhpl19 1389742332
+AR codificador_monedas behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd" sub00/vhpl05 1389742324
+EN sumador NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd" sub00/vhpl14 1389742329
+EN devolucion NULL "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd" sub00/vhpl20 1389742333
+AR codificador_pdto behavioral "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd" sub00/vhpl07 1389742326
+AR comprobador behavioral "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Comprobador.vhd" sub00/vhpl13 1389631754

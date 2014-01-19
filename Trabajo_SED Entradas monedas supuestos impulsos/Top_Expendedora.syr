@@ -1,0 +1,661 @@
+Release 14.6 - xst P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Reading design: Top_Expendedora.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top_Expendedora.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top_Expendedora"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : Top_Expendedora
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Top_Expendedora is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Top_Expendedora.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd".
+WARNING:HDLParsers:3607 - Unit work/Top_Expendedora/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Top_Expendedora.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd".
+WARNING:HDLParsers:3607 - Unit work/Codificador_Monedas is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Codificador_Monedas.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd".
+WARNING:HDLParsers:3607 - Unit work/Codificador_Monedas/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Codificador_Monedas.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd".
+WARNING:HDLParsers:3607 - Unit work/Codificador_pdto is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Codificador_pdto.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd".
+WARNING:HDLParsers:3607 - Unit work/Codificador_pdto/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Codificador_pdto.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd".
+WARNING:HDLParsers:3607 - Unit work/Comparador_3outs is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Comparador_3outs.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd".
+WARNING:HDLParsers:3607 - Unit work/Comparador_3outs/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Comparador_3outs.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd".
+WARNING:HDLParsers:3607 - Unit work/devolucion is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/devolucion.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd".
+WARNING:HDLParsers:3607 - Unit work/devolucion/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/devolucion.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd".
+WARNING:HDLParsers:3607 - Unit work/maquina is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/maquina.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/maquina.vhd".
+WARNING:HDLParsers:3607 - Unit work/maquina/behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/maquina.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/maquina.vhd".
+WARNING:HDLParsers:3607 - Unit work/Restador is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Restador.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd".
+WARNING:HDLParsers:3607 - Unit work/Restador/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Restador.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd".
+WARNING:HDLParsers:3607 - Unit work/Sumador is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Sumador_Recursivo.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd".
+WARNING:HDLParsers:3607 - Unit work/Sumador/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/Sumador_Recursivo.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd".
+WARNING:HDLParsers:3607 - Unit work/SYNC is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/SYNC.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd".
+WARNING:HDLParsers:3607 - Unit work/SYNC/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/SYNC.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd".
+WARNING:HDLParsers:3607 - Unit work/ff_d is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/ff_d.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd".
+WARNING:HDLParsers:3607 - Unit work/ff_d/Behavioral is now defined in a different file.  It was defined in "C:/Users/Javi/Desktop/Trabajo_SED Martes A/ff_d.vhd", and is now defined in "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd".
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd" in Library work.
+Architecture behavioral of Entity ff_d is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd" in Library work.
+Architecture behavioral of Entity sync is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd" in Library work.
+Architecture behavioral of Entity codificador_monedas is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd" in Library work.
+Architecture behavioral of Entity codificador_pdto is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd" in Library work.
+Architecture behavioral of Entity comparador_3outs is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd" in Library work.
+Architecture behavioral of Entity sumador is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd" in Library work.
+Architecture behavioral of Entity restador is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd" in Library work.
+Architecture behavioral of Entity devolucion is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/maquina.vhd" in Library work.
+Architecture behavioral of Entity maquina is up to date.
+Compiling vhdl file "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd" in Library work.
+Architecture behavioral of Entity top_expendedora is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top_Expendedora> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SYNC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Codificador_Monedas> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Codificador_pdto> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Comparador_3outs> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sumador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Restador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <devolucion> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <maquina> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ff_d> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top_Expendedora> in library <work> (Architecture <behavioral>).
+Entity <Top_Expendedora> analyzed. Unit <Top_Expendedora> generated.
+
+Analyzing Entity <SYNC> in library <work> (Architecture <behavioral>).
+Entity <SYNC> analyzed. Unit <SYNC> generated.
+
+Analyzing Entity <ff_d> in library <work> (Architecture <behavioral>).
+Entity <ff_d> analyzed. Unit <ff_d> generated.
+
+Analyzing Entity <Codificador_Monedas> in library <work> (Architecture <behavioral>).
+Entity <Codificador_Monedas> analyzed. Unit <Codificador_Monedas> generated.
+
+Analyzing Entity <Codificador_pdto> in library <work> (Architecture <behavioral>).
+Entity <Codificador_pdto> analyzed. Unit <Codificador_pdto> generated.
+
+Analyzing Entity <Comparador_3outs> in library <work> (Architecture <behavioral>).
+Entity <Comparador_3outs> analyzed. Unit <Comparador_3outs> generated.
+
+Analyzing Entity <Sumador> in library <work> (Architecture <behavioral>).
+Entity <Sumador> analyzed. Unit <Sumador> generated.
+
+Analyzing Entity <Restador> in library <work> (Architecture <behavioral>).
+Entity <Restador> analyzed. Unit <Restador> generated.
+
+Analyzing Entity <devolucion> in library <work> (Architecture <behavioral>).
+Entity <devolucion> analyzed. Unit <devolucion> generated.
+
+Analyzing Entity <maquina> in library <work> (Architecture <behavioral>).
+Entity <maquina> analyzed. Unit <maquina> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Codificador_Monedas>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_Monedas.vhd".
+    Found 1-bit register for signal <Enable>.
+    Found 8-bit register for signal <Valor>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <Codificador_Monedas> synthesized.
+
+
+Synthesizing Unit <Codificador_pdto>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Codificador_pdto.vhd".
+    Found 4-bit register for signal <Codigo_Pdto>.
+    Found 1-bit register for signal <Selec>.
+    Found 8-bit register for signal <Precio>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+Unit <Codificador_pdto> synthesized.
+
+
+Synthesizing Unit <Comparador_3outs>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Comparador_3outs.vhd".
+    Found 1-bit register for signal <Mayor>.
+    Found 1-bit register for signal <Igual>.
+    Found 1-bit register for signal <Menor>.
+    Found 8-bit comparator equal for signal <Igual$cmp_eq0000> created at line 52.
+    Found 8-bit comparator less for signal <Igual$cmp_lt0000> created at line 56.
+    Found 8-bit comparator greater for signal <Mayor$cmp_gt0000> created at line 49.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <Comparador_3outs> synthesized.
+
+
+Synthesizing Unit <Sumador>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Sumador_Recursivo.vhd".
+    Found 8-bit up accumulator for signal <Suma>.
+    Summary:
+	inferred   1 Accumulator(s).
+Unit <Sumador> synthesized.
+
+
+Synthesizing Unit <Restador>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Restador.vhd".
+    Found 1-bit register for signal <ok>.
+    Found 8-bit register for signal <devolver>.
+    Found 8-bit subtractor for signal <devolver$sub0000> created at line 57.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Restador> synthesized.
+
+
+Synthesizing Unit <devolucion>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/devolucion.vhd".
+    Found 1-bit register for signal <cc>.
+    Found 1-bit register for signal <c>.
+    Found 1-bit register for signal <l>.
+    Found 1-bit register for signal <ok>.
+    Found 1-bit register for signal <v>.
+    Found 1-bit register for signal <x>.
+    Found 1-bit register for signal <xx>.
+    Found 1-bit register for signal <aux>.
+    Found 9-bit comparator less for signal <c$cmp_lt0000> created at line 95.
+    Found 9-bit comparator greatequal for signal <cc$cmp_ge0000> created at line 90.
+    Found 9-bit comparator greatequal for signal <l$cmp_ge0000> created at line 95.
+    Found 9-bit comparator less for signal <l$cmp_lt0000> created at line 99.
+    Found 9-bit comparator greatequal for signal <ok$cmp_ge0000> created at line 111.
+    Found 8-bit register for signal <resto>.
+    Found 8-bit subtractor for signal <resto$addsub0000>.
+    Found 9-bit comparator less for signal <resto$cmp_lt0000> created at line 111.
+    Found 9-bit comparator greatequal for signal <v$cmp_ge0000> created at line 107.
+    Found 1-bit register for signal <w_pulse>.
+    Found 9-bit comparator greatequal for signal <x$cmp_ge0000> created at line 103.
+    Found 9-bit comparator less for signal <x$cmp_lt0000> created at line 107.
+    Found 9-bit comparator greatequal for signal <xx$cmp_ge0000> created at line 99.
+    Found 9-bit comparator less for signal <xx$cmp_lt0000> created at line 103.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  11 Comparator(s).
+Unit <devolucion> synthesized.
+
+
+Synthesizing Unit <maquina>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/maquina.vhd".
+WARNING:Xst:647 - Input <menor> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | reposo                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <entrega>.
+    Found 1-bit register for signal <reset_cp>.
+    Found 1-bit register for signal <en_rest>.
+    Found 1-bit register for signal <reset_mon>.
+    Found 1-bit register for signal <en_comp>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   5 D-type flip-flop(s).
+Unit <maquina> synthesized.
+
+
+Synthesizing Unit <ff_d>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/ff_d.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ff_d> synthesized.
+
+
+Synthesizing Unit <SYNC>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/SYNC.vhd".
+Unit <SYNC> synthesized.
+
+
+Synthesizing Unit <Top_Expendedora>.
+    Related source file is "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED Martes B/Top_Expendedora.vhd".
+Unit <Top_Expendedora> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 8-bit subtractor                                      : 2
+# Accumulators                                         : 1
+ 8-bit up accumulator                                  : 1
+# Registers                                            : 45
+ 1-bit register                                        : 40
+ 4-bit register                                        : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 14
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 9-bit comparator greatequal                           : 6
+ 9-bit comparator less                                 : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_maquina/estado/FSM> on signal <estado[1:2]> with gray encoding.
+------------------------
+ State      | Encoding
+------------------------
+ reposo     | 00
+ prod_selec | 01
+ devolucion | 11
+ fin        | 10
+------------------------
+INFO:Xst:2261 - The FF/Latch <Codigo_Pdto_2> in Unit <Inst_Codificador_pdto> is equivalent to the following 4 FFs/Latches, which will be removed : <Codigo_Pdto_3> <Precio_0> <Precio_1> <Precio_2> 
+INFO:Xst:2261 - The FF/Latch <reset_mon> in Unit <Inst_maquina> is equivalent to the following 2 FFs/Latches, which will be removed : <entrega> <reset_cp> 
+WARNING:Xst:1710 - FF/Latch <Codigo_Pdto_2> (without init value) has a constant value of 0 in block <Inst_Codificador_pdto>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <Codigo_Pdto<3:2>> (without init value) have a constant value of 0 in block <Codificador_pdto>.
+
+Synthesizing (advanced) Unit <devolucion>.
+The following registers are absorbed into accumulator <resto>: 1 register on signal <resto>.
+Unit <devolucion> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 8-bit subtractor                                      : 1
+# Accumulators                                         : 2
+ 8-bit down loadable accumulator                       : 1
+ 8-bit up accumulator                                  : 1
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+# Comparators                                          : 14
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+ 8-bit comparator less                                 : 1
+ 9-bit comparator greatequal                           : 6
+ 9-bit comparator less                                 : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Precio_0> (without init value) has a constant value of 0 in block <Codificador_pdto>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Precio_1> (without init value) has a constant value of 0 in block <Codificador_pdto>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Precio_2> (without init value) has a constant value of 0 in block <Codificador_pdto>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <Precio_3> in Unit <Codificador_pdto> is equivalent to the following FF/Latch, which will be removed : <Precio_6> 
+INFO:Xst:2261 - The FF/Latch <Precio_4> in Unit <Codificador_pdto> is equivalent to the following FF/Latch, which will be removed : <Precio_5> 
+INFO:Xst:2261 - The FF/Latch <reset_mon> in Unit <maquina> is equivalent to the following 2 FFs/Latches, which will be removed : <reset_cp> <entrega> 
+
+Optimizing unit <Top_Expendedora> ...
+
+Optimizing unit <Codificador_Monedas> ...
+
+Optimizing unit <Codificador_pdto> ...
+
+Optimizing unit <Comparador_3outs> ...
+
+Optimizing unit <Restador> ...
+
+Optimizing unit <devolucion> ...
+WARNING:Xst:2677 - Node <Inst_Comparador_3outs/Menor> of sequential type is unconnected in block <Top_Expendedora>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top_Expendedora, actual ratio is 3.
+
+Final Macro Processing ...
+
+Processing Unit <Top_Expendedora> :
+	Found 2-bit shift register for signal <Inst_SYNC_DEV/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_P3/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_P2/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_P1/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_CC/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_C/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_L/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_XX/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_X/Inst_ff_d_2/q>.
+	Found 2-bit shift register for signal <Inst_SYNC_V/Inst_ff_d_2/q>.
+Unit <Top_Expendedora> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+# Shift Registers                                      : 10
+ 2-bit shift register                                  : 10
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top_Expendedora.ngr
+Top Level Output File Name         : Top_Expendedora
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 194
+#      GND                         : 1
+#      INV                         : 16
+#      LUT2                        : 44
+#      LUT2_D                      : 1
+#      LUT2_L                      : 2
+#      LUT3                        : 23
+#      LUT3_L                      : 2
+#      LUT4                        : 34
+#      LUT4_D                      : 3
+#      LUT4_L                      : 3
+#      MUXCY                       : 37
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 24
+# FlipFlops/Latches                : 66
+#      FD                          : 14
+#      FDC                         : 10
+#      FDCE                        : 13
+#      FDE                         : 8
+#      FDR                         : 6
+#      FDRE                        : 9
+#      FDRS                        : 2
+#      FDRSE                       : 2
+#      FDS                         : 2
+# Shift Registers                  : 10
+#      SRL16                       : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 10
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       76  out of   1920     3%  
+ Number of Slice Flip Flops:             66  out of   3840     1%  
+ Number of 4 input LUTs:                138  out of   3840     3%  
+    Number used as logic:               128
+    Number used as Shift registers:      10
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    173    12%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 76    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------+------------------------------------------+-------+
+Control Signal                                             | Buffer(FF name)                          | Load  |
+-----------------------------------------------------------+------------------------------------------+-------+
+Inst_maquina/reset_mon(Inst_maquina/reset_mon:Q)           | NONE(Inst_Codificador_pdto/Codigo_Pdto_0)| 14    |
+Inst_Restador/enable_inv(Inst_Restador/enable_inv1_INV_0:O)| NONE(Inst_Restador/devolver_0)           | 9     |
+-----------------------------------------------------------+------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.015ns (Maximum Frequency: 124.768MHz)
+   Minimum input arrival time before clock: 1.778ns
+   Maximum output required time after clock: 6.545ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 8.015ns (frequency: 124.768MHz)
+  Total number of paths / destination ports: 1762 / 111
+-------------------------------------------------------------------------
+Delay:               8.015ns (Levels of Logic = 13)
+  Source:            Inst_devolucion/resto_4 (FF)
+  Destination:       Inst_devolucion/resto_7 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: Inst_devolucion/resto_4 to Inst_devolucion/resto_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             12   0.626   1.245  Inst_devolucion/resto_4 (Inst_devolucion/resto_4)
+     LUT4:I0->O            1   0.479   0.704  Inst_devolucion/devolver<0>_SW0_SW0 (N52)
+     LUT4:I3->O            1   0.479   0.000  Inst_devolucion/devolver<0>_SW0_SW3_F (N70)
+     MUXF5:I0->O           1   0.314   0.740  Inst_devolucion/devolver<0>_SW0_SW3 (N62)
+     LUT4:I2->O            1   0.479   0.740  Inst_devolucion/devolver<0> (Inst_devolucion/devolver<0>1)
+     LUT3:I2->O            1   0.479   0.000  Inst_devolucion/Maccum_resto_lut<0> (Inst_devolucion/Maccum_resto_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Inst_devolucion/Maccum_resto_cy<0> (Inst_devolucion/Maccum_resto_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Inst_devolucion/Maccum_resto_cy<1> (Inst_devolucion/Maccum_resto_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Inst_devolucion/Maccum_resto_cy<2> (Inst_devolucion/Maccum_resto_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Inst_devolucion/Maccum_resto_cy<3> (Inst_devolucion/Maccum_resto_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Inst_devolucion/Maccum_resto_cy<4> (Inst_devolucion/Maccum_resto_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Inst_devolucion/Maccum_resto_cy<5> (Inst_devolucion/Maccum_resto_cy<5>)
+     MUXCY:CI->O           0   0.056   0.000  Inst_devolucion/Maccum_resto_cy<6> (Inst_devolucion/Maccum_resto_cy<6>)
+     XORCY:CI->O           1   0.786   0.000  Inst_devolucion/Maccum_resto_xor<7> (Inst_devolucion/Result<7>)
+     FDE:D                     0.176          Inst_devolucion/resto_7
+    ----------------------------------------
+    Total                      8.015ns (4.586ns logic, 3.429ns route)
+                                       (57.2% logic, 42.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              1.778ns (Levels of Logic = 1)
+  Source:            P2_as (PAD)
+  Destination:       Inst_SYNC_P2/Inst_ff_d_2/Mshreg_q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: P2_as to Inst_SYNC_P2/Inst_ff_d_2/Mshreg_q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  P2_as_IBUF (P2_as_IBUF)
+     SRL16:D                   0.382          Inst_SYNC_P2/Inst_ff_d_2/Mshreg_q
+    ----------------------------------------
+    Total                      1.778ns (1.097ns logic, 0.681ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              6.545ns (Levels of Logic = 1)
+  Source:            Inst_maquina/reset_mon (FF)
+  Destination:       Entrega (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Inst_maquina/reset_mon to Entrega
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             15   0.626   1.010  Inst_maquina/reset_mon (Inst_maquina/reset_mon)
+     OBUF:I->O                 4.909          Entrega_OBUF (Entrega)
+    ----------------------------------------
+    Total                      6.545ns (5.535ns logic, 1.010ns route)
+                                       (84.6% logic, 15.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.63 secs
+ 
+--> 
+
+Total memory usage is 206948 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

@@ -1,0 +1,12 @@
+[Inputs]
+CLK
+Pdto1
+Pdto2
+Pdto3
+Dev
+Reset
+[Outputs]
+Selec
+=Precio[7:0]=
+=Codigo_Pdto[3:0]=
+[BiDir]
