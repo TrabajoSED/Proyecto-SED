@@ -1,1 +1,0 @@
-vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Sumador.vhi" -module Sumador -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Sumador_Recursivo.vhd 

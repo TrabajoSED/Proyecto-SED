@@ -1,2 +1,0 @@
-vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/maquina.vhi" -module maquina -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work maquina.vhd 
-vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/maquina.vhi" -module maquina -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work maquina.vhd 

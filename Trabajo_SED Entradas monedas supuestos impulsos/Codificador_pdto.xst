@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED domingo exceptop/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Hubert/Desktop/Trabajo SED Expender Maquiner/Trabajo_SED domingo exceptop/xst"
-elaborate
--ifn Codificador_pdto.prj
--ifmt mixed

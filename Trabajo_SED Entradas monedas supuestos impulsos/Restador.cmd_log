@@ -1,2 +1,0 @@
-vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Restador.vhi" -module Restador -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Restador.vhd 
-vhdtdtfi -prj Trabajo_SED -o "C:/Users/Javi/Desktop/Trabajo_SED lunes A/Restador.vhi" -module Restador -template C:/Xilinx/14.6/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Restador.vhd 
